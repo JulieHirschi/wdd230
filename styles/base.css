@@ -12,3 +12,8 @@ h3 {
     background-color: #125C81;
     color: #ECFEFE;
 }
+
+img {
+    border-style: groove;
+
+}
