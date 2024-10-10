@@ -1,19 +1,33 @@
 head {
-    background: whitesmoke;
-    img size: ;
+    background: #125C81;
+    color: #ECFEFE;
+    img size: 50%;
 }
 
 body {
     background: #ECFEFE;
-    color: #125C81
+    color: #125C81;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+h1 {
+    font-size: 200%;
 }
 
 h3 {
     background-color: #125C81;
     color: #ECFEFE;
+    font-size: x-large;
 }
 
 img {
-    border-style: groove;
+    border-style: solid;
+    border-color: #125C81;
+}
 
+footer {
+    background: #124a81;
+    color: #ECFEFE;
 }
