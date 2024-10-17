@@ -27,6 +27,10 @@ nav {
     padding: 1rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 main {
     grid-column: 2 / 3;
 }
