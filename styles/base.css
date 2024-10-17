@@ -40,8 +40,8 @@ right-side {
 }
 
 footer {
-    background: #124a81;
-    color: #ECFEFE;
+    background: orangered;
+    color: #125C81;
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 3;
