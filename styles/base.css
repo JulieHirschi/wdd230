@@ -5,7 +5,7 @@ head {
 }
 
 body {
-    background: #ECFEFE;
+    background: #5B8E7D;
     color: #125C81;
     text-align: center;
     font-size: x-large;
@@ -16,14 +16,14 @@ body {
 }
 
 header {
-    background: orangered;
+    background: #d65219;
     padding: 2rem;
     grid-column: 1 / 3;
 }
 
 nav {
     grid-column: 1 / 3;
-    background-color: aqua;
+    background-color: #f7c548;
     padding: 1rem;
 }
 
@@ -40,8 +40,8 @@ right-side {
 }
 
 footer {
-    background: orangered;
-    color: #125C81;
+    background: #d65219;
+    color: #022f40;
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 3;
@@ -49,6 +49,7 @@ footer {
 
 h1 {
     font-size: 200%;
+    color: #022f40;
 }
 
 h3 {
