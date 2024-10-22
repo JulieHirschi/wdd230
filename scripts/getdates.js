@@ -1,0 +1,1 @@
+const d = new Date(document.lastModified); document.getElementById("lastModified").innerHTML = d;
