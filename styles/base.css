@@ -82,20 +82,6 @@ img {
 
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-.open-sans-<uniquifier> {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 main {
@@ -106,7 +92,7 @@ main {
 .hero {
     margin: 10px auto;
     position: relative;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid #022f40;
     height: 300px;
 }
 
@@ -121,12 +107,11 @@ main {
     position: absolute;
     top: 30px;
     left: 30px;
-    background: radial-gradient(#fff, #bad6e4);
-    border: 1px solid rgba(0, 0, 0, .75);
+    background: radial-gradient(#fff, #c1c7ca);
+    border: 1px solid #022f40;
     padding: 1.5rem;
     box-shadow: 0 0 3rem #fff;
     opacity: 0.75;
-    /* Buenas */
 }
 
 .herolabel p {

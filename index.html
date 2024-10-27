@@ -13,20 +13,10 @@
 
 <body>
     <header>
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#newsEvents" class="active">News & Events</a>
-            <a href="#contact" class="active">Contact</a>
-            <a href="#joinChamber" class="active">Join Chamber</a> <!-- Split to right? 
-        example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_split-->
-            <a href="javascriptvoid(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-
-        </div>
         <h1> <img src="images/me.jpg" alt="me"> Julie Hirschi</h1>
     </header>
     <nav>
+
         <ul>
             <li>Home</li>
             <li>Site Plan</li>
@@ -34,13 +24,25 @@
             <li><a href="https://www.byui.edu/"></a>BYU-Idaho</li>
             <li><a href=" https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/6?lang=eng"></a>Scripture</li>
         </ul>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#sitePlan" class="active">Site Plan</a>
+            <a href="#byuIdaho" class="active">BYU-Idaho</a>
+            <a href="#scripture" class="active">Scripture</a>
+            <a href="javascriptvoid(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </div>
     </nav>
 
     <main>
         <div class="hero">
             <picture>
-                <img src="https://www.churchofjesuschrist.org/imgs/f776300d2f59a0d25045f45d961c326a7ae080d8/full/320%2C/0/default"
-                    alt="Los Angeles Temple - 2022">
+                <img src="lesson06/images/los-angeles-temple-766339-wallpaper-lg4.jpg" alt="Los Angeles Temple">
+                <img src="lesson06/images/los-angeles-temple-lds-83061-wallpaper-sm4.png" alt="Los Angeles Temple"
+                    srcset="los-angeles-temple-200px.png 200w, los-angeles-temple-400px.png 400w"
+                    sizes="(max-width: 600px) 200px, 50vw" />
             </picture>
             <div class="herolabel">
                 <p>Los Angeles Temple</p>
