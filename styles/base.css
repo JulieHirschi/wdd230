@@ -102,6 +102,18 @@ main {
     object-fit: cover;
 }
 
+.label {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+#visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
 .herolabel {
     text-wrap: nowrap;
     position: absolute;
