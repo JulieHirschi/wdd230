@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 body {
     background: #5B8E7D;
     color: #022f40;
     text-align: center;
     font-size: x-large;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 header {
     background: #5B8E7D;
     padding: 20px;
+    grid-column: 1 / 3;
     margin: 10px;
 }
 
 nav {
+    grid-column: 1 / 3;
     background-color: #f7c548;
     padding: 20px;
 }
@@ -23,11 +27,22 @@ ul {
 }
 
 .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    gap: 40px;
     background-color: #f7c548;
 }
 
 .card {
     box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 300px;
 }
 
 clearfix::after {
@@ -41,6 +56,7 @@ footer {
     color: #022f40;
     padding: 2rem;
     text-align: center;
+    grid-column: 1 / 3;
 }
 
 h1 {
@@ -63,13 +79,27 @@ img {
     width: 16%;
     height: auto;
     align-items: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+main {
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid #022f40;
+    height: 300px;
 }
 
 .hero img {
     width: 100%;
     height: 100%;
-    position: relative;
-    border: 1px solid #022f40;
+    object-fit: cover;
 }
 
 .label {
@@ -85,9 +115,10 @@ img {
 
 
 .herolabel {
+    text-wrap: nowrap;
     position: absolute;
-    top: 35rem;
-    left: 4.5rem;
+    top: 30px;
+    left: 30px;
     background: radial-gradient(#fff, #c1c7ca);
     border: 1px solid #022f40;
     padding: 1.5rem;
@@ -105,22 +136,17 @@ img {
 }
 
 @media (min-width:760px) {
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .herolabel {
-        top: 150%;
-        left: 5rem;
+    .right {
+        grid-column: 4 / 6;
+    }
+
+    .left {
+        grid-column: 1 / 4;
     }
 
 }
