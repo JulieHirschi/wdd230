@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
-    background: #5B8E7D;
+    background: #c75911;
     color: #022f40;
     text-align: center;
     font-size: x-large;
 }
 
 header {
-    background: #5B8E7D;
+    background: #c75911;
     padding: 20px;
     margin: 10px;
 }
@@ -37,7 +37,7 @@ clearfix::after {
 }
 
 footer {
-    background: #5B8E7D;
+    background: #c75911;
     color: #022f40;
     padding: 2rem;
     text-align: center;
