@@ -1,0 +1,35 @@
+{
+    "wardInformation": {
+        "familyName": "Jones",
+        "moveInDate": "2024-11-11",
+        "numberOfPeople": 5,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Robert Jones",
+                "gender": "Male",
+                "birthdate": "1996-02-17"
+            },
+            {
+                "name": "Amy Jones",
+                "gender": "Female",
+                "birthdate": "1997-10-20"
+            },
+            {
+                "name": "Rachel Jones",
+                "gender": "Female",
+                "birthdate": "2021-02-03"
+            },
+            {
+                "name": "Heather Jones",
+                "gender": "Female",
+                "birthdate": "2023-11-30"
+            },
+            {
+                "name": "Ethan Jones",
+                "gender": "Male",
+                "birthdate": "2023-11-30"
+            }
+        ]
+    }
+}
