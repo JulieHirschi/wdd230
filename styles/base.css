@@ -65,10 +65,17 @@ img {
     align-items: center;
 }
 
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
+}
+
 .hero img {
     width: 100%;
     height: 100%;
-    position: relative;
+    object-fit: cover;
     border: 1px solid #022f40;
 }
 
@@ -86,8 +93,8 @@ img {
 
 .herolabel {
     position: absolute;
-    top: 35rem;
-    left: 4.5rem;
+    top: 30px;
+    left: 30px;
     background: radial-gradient(#fff, #c1c7ca);
     border: 1px solid #022f40;
     padding: 1.5rem;
@@ -118,9 +125,9 @@ img {
         grid-gap: 3rem;
     }
 
-    .herolabel {
-        top: 150%;
-        left: 5rem;
-    }
+    /*.herolabel {
+        color:
+        font:
+    }*/
 
 }
