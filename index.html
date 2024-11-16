@@ -47,10 +47,9 @@
         <main>
             <div class="hero">
                 <picture>
-                    <img src="lesson06/images/los-angeles-temple-766339-wallpaper-lg4.jpg" alt="Los Angeles Temple">
-                    <img src="lesson06/images/los-angeles-temple-lds-83061-wallpaper-sm4.png" alt="Los Angeles Temple"
-                        srcset="los-angeles-temple-200px.png 200w, los-angeles-temple-400px.png 400w"
-                        sizes="(max-width: 600px) 200px, 50vw" />
+                    <source media="(max-width: 500px)" srcset="images/los-angeles-temple-sm.webp">
+                    <source media="(max-width: 501px)" srcset="images/los-angeles-temple-lg.webp">
+                    <img src="images/los-angeles-temple-lg.webp" alt="Los Angeles Temple">
                 </picture>
                 <div class="herolabel">
                     <p>Los Angeles Temple</p>
@@ -107,9 +106,7 @@
                     <a class="weatherwidget-io" href="https://forecast7.com/en/37d18n113d29/hurricane/?unit=us"
                         data-label_1="HURRICANE" data-label_2="WEATHER" data-font="Verdana" data-days="3"
                         data-theme="tile_wood">HURRICANE WEATHER</a>
-                    <script>
-                        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-                    </script>
+
                     <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
                 </section>
             </div>
@@ -145,6 +142,7 @@
         </footer>
         <script src="scripts/getdates.js"></script>
         <script src="scripts/scripts.js"></script>
+        <script src="scripts/windchil.js"></script>
 </body>
 
 </html>
