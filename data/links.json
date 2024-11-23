@@ -1,12 +1,126 @@
 {
-    "lessons": "02",
-    "links": [
+    "lessons": [
         {
-            "url": "lesson02/mediaquery.html",
-            "title": "Media Queries"
+            "lessons": "01",
+            "links": [
+                {
+                    "url": "http://juliehirschi.github.io/wdd230/holygrail.html",
+                    "title": "Holy Grail Layout"
+                }
+            ]
         },
         {
-            "url": "lesson02/design-principles.html""title": "Design Principles Document"
+            "lessons": "02",
+            "links": [
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                },
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson02/media-query.html",
+                    "title": "Design Media-Query"
+                },
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson02/design.html",
+                    "title": "Design"
+                }
+            ]
+        },
+        {
+            "lessons": "03",
+            "links": [
+                {
+                    "url": " ",
+                    "title": "psuedo element"
+                },
+                {
+                    "url": " ",
+                    "title": "responsive hamburger"
+                },
+                {
+                    "url": " ",
+                    "title": "combinator exercise"
+                }
+            ]
+        },
+        {
+            "lessons": "04",
+            "links": [
+                {
+                    "url": " ",
+                    "title": "psuedo class"
+                }
+            ]
+        },
+        {
+            "lessons": "05",
+            "links": [
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson05/bom.html",
+                    "title": "BoM Dom Manipulation"
+                }
+            ]
+        },
+        {
+            "lessons": "06",
+            "links": [
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson06/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": " ",
+                    "title": "responsive images"
+                }
+            ]
+        },
+        {
+            "lessons": "07",
+            "links": [
+                {
+                    "url": " ",
+                    "title": "lazyload image"
+                },
+                {
+                    "url": " ",
+                    "title": "BoM Local Storage"
+                }
+            ]
+        },
+        {
+            "lessons": "08",
+            "links": [
+                {
+                    "url": " ",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson08/form.html",
+                    "title": "HTML Form"
+                },
+                {
+                    "url": " ",
+                    "title": "Form"
+                }
+            ]
+        },
+        {
+            "lessons": "09",
+            "links": [
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson09/prophets.html",
+                    "title": "Latter-Day Prophets"
+                }
+            ]
+        },
+        {
+            "lessons": "10",
+            "links": [
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson10/weather.html",
+                    "title": "Weather API"
+                }
+            ]
         }
     ]
-},
+}
