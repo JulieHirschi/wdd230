@@ -1,13 +1,13 @@
-const baseURL = "https://juliehirschi.github.io/wdd230/";
-const linkURL = "https://juliehirschi.github.io/wdd230/data/links.json";
+const baseURL = "https://juliehirschi.github.io/wdd230/"
+const linkURL = "https://juliehirschi.github.io/wdd230/data/links.json"
 
 async function getLinks() {
-    const response = await fetch(linkURL);
-    const data = await response.json();
+    const links = await fetch(linkURL);
+    const data = await links.json();
     displayLinks(data.lessons);
 }
 
-sessions = document.getElementById("session")
+sessions = document.getElementById("session");
 
 function displayLinks(weeks) {
     weeks.forEach(week => {
@@ -36,6 +36,7 @@ function displayLinks(weeks) {
             });
             list.classList.add("multiple");
         }
+        sessions.appendChild(list);
     });
 }
 getLinks();
