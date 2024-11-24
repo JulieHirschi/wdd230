@@ -38,5 +38,5 @@ function displayLinks(weeks) {
         }
     });
 }
-displayLinks();
+getLinks();
 

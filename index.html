@@ -91,11 +91,13 @@
                 </section>
                 <section class="card right">
                     <h3>Information</h3>
-                    <div>weather</div>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/37d18n113d29/hurricane/?unit=us"
-                        data-label_1="HURRICANE" data-label_2="WEATHER" data-font="Verdana" data-days="3"
-                        data-theme="tile_wood">HURRICANE WEATHER</a>
-
+                    <div class="weather-container">
+                        <p>The current temperature in Hurricane, Utah is <span id="current-temp"></span></p>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
                     <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
                 </section>
             </div>
@@ -116,7 +118,7 @@
         <script src="scripts/scripts.js"></script>
         <script src="scripts/weather.js"></script>
         <script src="scripts/menu.js"></script>
-        <script src="scripts/link.js"></script>
+        <script src="scripts/links.js"></script>
 </body>
 
 </html>
