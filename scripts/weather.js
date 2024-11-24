@@ -6,7 +6,7 @@ const apiKey = '3f8c8050d69dd39715ce059e91c97bf3';
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&unit=imperial`;
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`;
 
 async function apiFetch() {
     try {
@@ -31,7 +31,7 @@ function displayResults(data) {
     for (let i = 0; i < words.length; i++) {
         words[i] = words[i][0].toUpperCase() + words[i].substr(1);
     }
-    let description = words.join("");
+    let description = words.join(" ");
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', description);

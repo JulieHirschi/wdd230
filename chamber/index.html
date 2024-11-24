@@ -38,10 +38,16 @@
             <a href=""></a>
 
         </section>
-        <section class="card">
+        <section class="card right">
             <h3>Information</h3>
-            <div>weather</div>
-            <div>number of visits</div>
+            <div class="weather-container">
+                <p>The current temperature in Hurricane, Utah is <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         </section>
     </main>
     <footer>
@@ -64,6 +70,7 @@
             }
         }
     </script>-->
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
