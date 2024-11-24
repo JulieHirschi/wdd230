@@ -12,14 +12,14 @@ sessions = document.getElementById("session")
 function displayLinks(weeks) {
     weeks.forEach(week => {
         const list = document.createElement("li");
-        if (week.links.length > 1) {
+        if (week.links.length === 1) {
             const activity = week.links[0];
             list.innerHTML = `<a href="${activity.url}">week ${week.lesson}: ${activity.title}</a>`;
         } else if (week.links.length > 1) {
             const weekMultiple = document.createElement("span");
             weekMultiple.textContent = `Week ${week.lesson}: `;
             list.appendChild(weekMultiple);
-            weekMultiple.style.color = "#022f40";
+            weekMultiple.style.color = "black";
 
             week.links.forEach((activity, index) => {
                 const anchor = document.createElement("a");
@@ -30,7 +30,7 @@ function displayLinks(weeks) {
                 if (index < week.links.length - 1) {
                     const bar = document.createElement("span");
                     bar.textContent = "|";
-                    bar.style.color = "#022f40";
+                    bar.style.color = "black";
                     list.appendChild(bar);
                 }
             });

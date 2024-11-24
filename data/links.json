@@ -65,11 +65,11 @@
             "lessons": "06",
             "links": [
                 {
-                    "url": "https://juliehirschi.github.io/wdd230/lesson06/images/landscape.webp",
+                    "url": "lesson06/images/landscape1.jpeg.webp",
                     "title": "WebP"
                 },
                 {
-                    "url": " ",
+                    "url": "https://juliehirschi.github.io/wdd230/lesson06/responsive-images.html",
                     "title": "responsive images"
                 }
             ]
@@ -78,11 +78,11 @@
             "lessons": "07",
             "links": [
                 {
-                    "url": " ",
+                    "url": "https://juliehirschi.github.io/wdd230/lesson07/lazyload.html",
                     "title": "lazyload image"
                 },
                 {
-                    "url": " ",
+                    "url": "https://juliehirschi.github.io/wdd230/lesson07/bom.html",
                     "title": "BoM Local Storage"
                 }
             ]
@@ -91,7 +91,7 @@
             "lessons": "08",
             "links": [
                 {
-                    "url": " ",
+                    "url": "https://juliehirschi.github.io/wdd230/lesson08/tablebuild.html",
                     "title": "Table Build"
                 },
                 {
@@ -110,6 +110,10 @@
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson09/prophets.html",
                     "title": "Latter-Day Prophets"
+                },
+                {
+                    "url": "https://juliehirschi.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title": "New Ward Members"
                 }
             ]
         },
