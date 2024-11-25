@@ -1,7 +1,7 @@
 {
     "lessons": [
         {
-            "lessons": "01",
+            "lesson": 01,
             "links": [
                 {
                     "url": "http://juliehirschi.github.io/wdd230/holygrail.html",
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "lessons": "02",
+            "lesson": 02,
             "links": [
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson02/design-principles.html",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "lessons": "03",
+            "lesson": "03",
             "links": [
                 {
                     "url": " ",
@@ -44,16 +44,16 @@
             ]
         },
         {
-            "lessons": "04",
+            "lesson": "04",
             "links": [
                 {
-                    "url": " ",
+                    "url": "https://codepen.io/JulieHirschi/pen/yyBBpyB",
                     "title": "psuedo class"
                 }
             ]
         },
         {
-            "lessons": "05",
+            "lesson": "05",
             "links": [
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson05/bom.html",
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "lessons": "06",
+            "lesson": "06",
             "links": [
                 {
                     "url": "lesson06/images/landscape1.jpeg.webp",
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "lessons": "07",
+            "lesson": "07",
             "links": [
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson07/lazyload.html",
@@ -88,7 +88,7 @@
             ]
         },
         {
-            "lessons": "08",
+            "lesson": "08",
             "links": [
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson08/tablebuild.html",
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "lessons": "09",
+            "lesson": "09",
             "links": [
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson09/prophets.html",
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "lessons": "10",
+            "lesson": "10",
             "links": [
                 {
                     "url": "https://juliehirschi.github.io/wdd230/lesson10/weather.html",

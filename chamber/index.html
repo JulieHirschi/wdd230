@@ -31,24 +31,33 @@
 
     </nav>
     <main>
-        <h2>Business Spotlight</h2>
-        <section class="card">
-            <h3>Service</h3>
-            <ul></ul>
-            <a href=""></a>
-
-        </section>
-        <section class="card right">
-            <h3>Information</h3>
-            <div class="weather-container">
-                <p>The current temperature in Hurricane, Utah is <span id="current-temp"></span></p>
-                <figure>
-                    <img id="weather-icon" src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/los-angeles-temple-sm.webp">
+                <source media="(max-width: 501px)" srcset="images/los-angeles-temple-lg.webp">
+                <img src="images/los-angeles-temple-lg.webp" alt="Los Angeles Temple">
+            </picture>
+            <div class="herolabel">
+                <p>Los Angeles Temple</p>
             </div>
-            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-        </section>
+            <h2>Business Spotlight</h2>
+            <section class="card">
+                <h3>Service</h3>
+                <ul></ul>
+                <a href=""></a>
+
+            </section>
+            <section class="card right">
+                <h3>Information</h3>
+                <div class="weather-container">
+                    <p>The current temperature in Hurricane, Utah is <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+            </section>
     </main>
     <footer>
         <p>Chamber

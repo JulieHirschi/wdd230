@@ -59,69 +59,10 @@ nav {
 
 
 
-
 #menu.open::before {
     content: "❎";
 }
 
-/* small view navigation */
-/*
-#menu {
-    display: block font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    padding .5rem .75rem;
-    background-color: #eee;
-    color: #022f40;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-#menu::before {
-    content: "☰";
-}
-
-nav {
-    background-color: #f7c548;
-}
-
-.navigation {
-    list-style: none;
-    margin: 0 auto;
-    max-midth: 760px;
-}
-
-.navigation li {
-    display: none;
-}
-
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    transition: 0.5s;
-    font-size: clamp(1rem' 2vmin, 1.5rem);
-
-    }
-
-    .navigation a:hover, navigation a:active {
-        background-color: #c75911;
-        color: #022f40;
-    }
-
-    .show li {
-        display: block;
-    }
-
-    #menu.open::before {
-        content: "❎";
-    }
-
-    */
 /* large view navigation ************************************/
 
 @media (min-width: 37.5em) {
@@ -140,26 +81,6 @@ nav {
         flex: 1 1 100%;
     }
 }
-
-/*
-    @media (min-width 40em) {
-        .navigation {
-            display: flex;
-        }
-
-        .navigation li {
-            display: block;
-            flex: 1 1 100%;
-        }
-
-        .navigation a {
-            text-align: center;
-        }
-
-        #menu {
-            display: none;
-        }
-    }*/
 
 ul {
     list-style-type: none;
@@ -267,10 +188,4 @@ img {
         grid-template-columns: 1fr 1fr;
         grid-gap: 3rem;
     }
-
-    /*.herolabel {
-        color:
-        font:
-    }*/
-
 }
