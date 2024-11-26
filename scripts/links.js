@@ -14,7 +14,7 @@ function displayLinks(weeks) {
         const list = document.createElement("li");
         if (week.links.length === 1) {
             const activity = week.links[0];
-            list.innerHTML = `<a href="${activity.url}">week ${week.lesson}: ${activity.title}</a>`;
+            list.innerHTML = `<a href="${activity.url}">Week ${week.lesson}: ${activity.title}</a>`;
         } else if (week.links.length > 1) {
             const weekMultiple = document.createElement("span");
             weekMultiple.textContent = `Week ${week.lesson}: `;
