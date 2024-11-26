@@ -6,52 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Assignment Portal">
     <meta name="author" content="Julie Hirschi">
-    <title>Julie Hirschi - WDD230 Web Frontend Development</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <title>Lazy Loading Example</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 
 <body>
     <header>
-        <h1> <img src="images/me.jpg" alt="me"> Julie Hirschi</h1>
+        <h1>Lazy Loading Example</h1>
     </header>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Site Plan</li>
-            <li>Chamber</li>
-            <li><a href="https://www.byui.edu/"></a>BYU-Idaho</li>
-            <li><a href=" https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/6?lang=eng"></a>Scripture</li>
-        </ul>
-    </nav>
+
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
-        <div class="grid-container">
-            <section class="card left">
-                <h3>Learning Activities</h3>
-                <ul>
-                    <li>Lesson 1:
-                        <a href="juliehirschi.github.io/wdd230/holygrail.html">Holy Grail Layout</a>
-                    </li>
-                </ul>
-                <a href=""></a>
-            </section>
-            <section class="card right">
-                <h3>Information</h3>
-                <div>weather</div>
-                <div>number of visits</div>
-            </section>
-        </div>
+        <picture>
+            <img src="https://placebear.com/400/600" alt="Placeholder Kitten Image" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <p>loren</p>
+        <picture>
+            <img src="https://placebear.com/400/700" alt="Placeholder Kitten Image" loading="lazy" width="400"
+                height="700">
+        </picture>
+        <picture>
+            <img src="https://placebear.com/400/800" alt="Placeholder Kitten Image" loading="lazy" width="400"
+                height="800">
+        </picture>
+        <picture>
+            <img src="https://placebear.com/400/650" alt="Placeholder Kitten Image" loading="lazy" width="400"
+                height="650">
+        </picture>
+        <picture>
+            <img src="https://placebear.com/400/750" alt="Placeholder Kitten Image" loading="lazy" width="400"
+                height="750">
+        </picture>
+        <picture>
+            <img src="https://placebear.com/400/850" alt="Placeholder Kitten Image" loading="lazy" width="400"
+                height="850">
+        </picture>
     </main>
     <footer>
-        <p> &copy; <span id="fullYear"></span>
-            Julie Hirschi
-            <img2 src="images/flag.PNG" alt="USA_UT_Flags" width="50" height="50"> Utah
-        </p>
+        <p>©Julie Hirschi | BYU-Idaho | WDD 230 - Fall 2024
+
         <p id="lastMod">Last Modified: <span id="lastModified"></span></p>
 
     </footer>
-    <script src="scripts/getdates.js"></script>
 </body>
 
 </html>
