@@ -211,6 +211,7 @@ h3 {
 img {
     border-style: solid;
     border-color: #0b4360;
+    animation: fade 10s;
 }
 
 .hero {
