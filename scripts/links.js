@@ -22,7 +22,7 @@ function displayLinks(weeks) {
         const weekMultiple = document.createElement("span");
         weekMultiple.textContent = `Week ${week.lesson}: `;
         list.appendChild(weekMultiple);
-        weekMultiple.style.color = "black";
+        weekMultiple.style.color = "#c75911";
 
         week.links.forEach((activity, index) => {
             const anchor = document.createElement("a");
@@ -33,7 +33,7 @@ function displayLinks(weeks) {
             if (index < week.links.length - 1) {
                 const bar = document.createElement("span");
                 bar.textContent = "|";
-                bar.style.color = "black";
+                bar.style.color = "#c75911";
                 list.appendChild(bar);
             }
         });
