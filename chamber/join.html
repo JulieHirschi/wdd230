@@ -15,6 +15,9 @@
 
 <body>
     <header>
+        <h2> <img src="images/logo.webp" alt="Orange block H logo" width="125" height="150" align="middle" />
+            Hurricane City Chamber of Commerce</h2>
+
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="discover.html" class="active">Discover</a>
@@ -25,33 +28,137 @@
                 <i class="fa fa-bars"></i>
             </a>
 
-        </div>
-        <div id="mode">
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
-        </div>
 
-        <h2> <img src="images/logo.webp" alt="Orange block H logo" width="125" height="150" align="middle" />
-            Hurricane City Chamber of Commerce</h2>
+
     </header>
     <!--<nav>
 
     </nav>-->
     <main>
-        <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
-        </div>
+        <section class="card left">
+            <div id="formmessage"></div>
+            <h1>Chamber Application</h1>
+            <form method="get">
+                <p class="smaller">*️⃣ Indicates a required field</p>
 
+                <label for="username" class="req">First Name*</label>
+                <input type="text" id="username" name="username" required placeholder="">
+                <label for="username" class="req">Last Name*</label>
+                <input type="text" id="username" name="username" required placeholder="">
+                <label for="username" class="req">Title or Position</label>
+                <input type="text" id="username" name="username" required placeholder="">
+
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com"
+                    title="A valid email address." pattern="[a-zA-Z0-9_.\-]+@domain.com" required>
+                <input type="submit" value="Validate">
+                <label for="username" class="req">Phone*</label>
+                <input type="text" id="phone" name="phone" required placeholder="1235551234">
+            </form>
+            <form>
+                <label for="username" class="req">Organization*</label>
+                <input type="text" id="username" name="username" required placeholder="">
+                <form action="/action_page.php">
+                    <label for="membership">Membership Level</label>
+                    <select name="membership-level" id="membership-level">
+                        <option value disabled selected>Please Select Membership level</option>
+                        <option value="NP">NP Membership (Non-Profit, Free)</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </form>
+
+
+                <form>
+                    <button id="btnSubmit" type="submit">Join Today</button>
+                    <input type="hidden" value="43aster">
+                </form>
+        </section>
+
+        <section class="card right">
+            <table>
+                <caption>Table 1: Membership Package Comparisons</caption>
+                <thead>
+                    <tr>
+                        <th colspan="5" scope="colgroup">Membership Benefits</th>
+                    </tr>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Non-Profit</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Access to Chamber events</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Access to Chamber Training Sessions</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Discounts on Chamber Travel Packages</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Discounts on Advertising Opportunities</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Featured in Newsletters</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Special Events on Chamber Website</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Priority Support</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Social Media Spotlight</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Logo displayed on slideshow at Chamber Events</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
     <!--<nav>
 
@@ -83,7 +190,7 @@
         }
     </script>-->
     <script src="scripts/weather.js"></script>
-    <script src="scripts/dark.js"></script>
+
 </body>
 
 </html>

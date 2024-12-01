@@ -15,42 +15,128 @@
 
 <body>
     <header>
+        <h2> <img src="images/logo.webp" alt="Orange block H logo" width="125" height="150" align="middle" />
+            Hurricane City Chamber of Commerce</h2>
+
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="discover.html" class="active">Discover</a>
             <a href="directory.html" class="active">Directory</a>
             <a href="join.html" class="active">Join</a> <!-- Split to right? 
-            example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_split-->
+                    example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_split-->
             <a href="javascriptvoid(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
-
-        </div>
-        <div id="mode">
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
-        </div>
-
-        <h2> <img src="images/logo.webp" alt="Orange block H logo" width="125" height="150" align="middle" />
-            Hurricane City Chamber of Commerce</h2>
     </header>
     <!--<nav>
 
     </nav>-->
     <main>
-        <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
         </div>
+        <hr>
+        <article class="grid">
+            <section>
+                <h3>Simple Pleasures Salon</h3>
+                <img src="" alt="Street View of Simple Pleasures Salon" />
+
+                <p> Address: 57 E State St. hurricane, UT 84737</p>
+                <p> Phone: (435) 635-3125 </p>
+                <a href="business.html">Website</a>
+                <p>Membership level: Gold</p>
+            </section>
+
+            <section>
+                <h3>Dixie Nutrition</h3>
+                <img src="images/Dixie_Nutr_Logo.webp" alt="Green Frog Dixie Nutrition Logo" />
+
+                <p> Address: 57 Main St., Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-2113</p>
+                <a href="https://dixienutrition.com/">Website</a>
+                <p>Membership Level: Gold</p>
+
+            </section>
+
+            <section>
+                <h3>Scholzen Products</h3>
+                <img src="images/SP_Logo.webp" alt="SP Red Black Letter Logo" />
+
+                <p> Address: 548 W 100 N, Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-4441</p>
+                <a href="https://www.scholzens.com/">Website</a>
+                <p>Membership Level: Silver</p>
+
+            </section>
+
+            <section>
+                <h3>Tom's Clip Joint</h3>
+                <img src="" alt="business" />
+
+                <p> Address: 119 W State Street, Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-4291</p>
+                <a href="https://www.facebook.com/pages/Toms-Clip-Joint/273238819459343">Website</a>
+                <p>Membership Level: Gold</p>
+
+            </section>
+
+            <section>
+                <h3>Small Town Auto Sales</h3>
+                <img src="images/Sm_town_Auto_Logo.webp" alt="Blue background Yellow words" />
+
+                <p> Address: 678 W State Street, Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-2501</p>
+                <a href="https://www.smalltownautosales.com/">Website</a>
+                <p>Membership level: Bronze</p>
+
+            </section>
+
+            <section>
+                <h3>Ballards Nursery</h3>
+                <img src="images/Ballard's Nursery_Sign.webp" alt="Friendly Street Sign" />
+
+                <p> Address: 691 N State Street, Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-4274</p>
+                <a href="https://www.facebook.com/ballardsnsy/">Website</a>
+                <p>Membership Level: Bronze</p>
+
+            </section>
+
+            <section>
+                <h3>PaPa Murphy's Pizza</h3>
+                <img src="images/Papa Murphy's Pizza Logo.webp" alt="Red & Green Papa Murphy's Sign" />
+
+                <p> Address: 535 WEst State Street, Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-7272</p>
+                <a
+                    href="https://locations.papamurphys.com/ut/hurricane/535-west-state-street?utm_source=organic&utm_medium=gmb&utm_campaign=yext">Website</a>
+                <p>Membership level: Silver</p>
+
+            </section>
+
+            <section>
+                <h3>Muddy Bee's Bakery</h3>
+                <img src="images/Muddy_Bs_Bakery Logo.webp" alt="Happy Bee's Sitting in Tea Cup" />
+
+                <p> Address: 525 State St. #7, Hurricane, UT 84737</p>
+                <p> Phone: (435) 467-4898</p>
+                <a href="https://www.muddybeesbakery.com/">Website</a>
+                <p>Membership Level: Gold</p>
+
+            </section>
+
+            <section>
+                <h3>JJ's Frostop</h3>
+                <img src="images/Frostop Drive-In image.webp" alt="Street view of Frostop Drive-In" />
+
+                <p> Address: 116 West State Street, Hurricane, UT 84737</p>
+                <p> Phone: (435) 635-5528</p>
+                <a href="https://www.facebook.com/crosscountrydiner/">Website</a>
+                <p>Membership Level: Gold</p>
+
+            </section>
+        </article>
 
     </main>
     <!--<nav>
@@ -84,6 +170,7 @@
     </script>-->
     <script src="scripts/weather.js"></script>
     <script src="scripts/dark.js"></script>
+    <script src="data/members.json"></script>
 </body>
 
 </html>

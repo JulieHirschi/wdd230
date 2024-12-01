@@ -15,17 +15,7 @@
 
 <body>
     <header>
-        <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Home</a>
-            <a href="discover.html" class="active">Discover</a>
-            <a href="directory.html" class="active">Directory</a>
-            <a href="join.html" class="active">Join</a> <!-- Split to right? 
-            example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_split-->
-            <a href="javascriptvoid(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
 
-        </div>
         <div id="mode">
             <label class="switch">
                 <input type="checkbox">
@@ -35,23 +25,51 @@
 
         <h2> <img src="images/logo.webp" alt="Orange block H logo" width="125" height="150" align="middle" />
             Hurricane City Chamber of Commerce</h2>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="discover.html" class="active">Discover</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html" class="active">Join</a> <!-- Split to right? 
+                example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_split-->
+            <a href="javascriptvoid(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </div>
     </header>
     <!--<nav>
 
     </nav>-->
     <main>
-        <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
-        </div>
-
+        <aside id="sidebar">
+            <h2>Discover Hurricane</h2>
+            <p>Discover the beauty of Hurricane, Utah. From the red rocks to the beautiful sunsets, Hurricane is a
+                beautiful place to live and work.</p>
+            <h3>Upcoming Events</h3>
+            <p>July 4th: Independence Day Celebration</p>
+            <p>July 24th: Pioneer Day</p>
+            <p>September 22nd: Fall Equinox</p>
+            <h3>Weather</h3>
+            <div id="weather">
+                <p>Current Weather</p>
+                <p id="current">Current Temp</p>
+                <p id="high">High Temp</p>
+                <p id="low">Low Temp</p>
+            </div>
+        </aside>
+        <div id="gallery">
+            <h2>Discover Hurricane</h2>
+            <div class="gallery">
+                <img src="images/Welcome to Hurricane.jpg" alt="Heritage Park Welcome Sign" width="300" height="200">
+                <img src="images/Equestrian Park.jpg" alt="American Legion Equestrian Park sign" width="300"
+                    height="200">
+                <img src="images/Ironman May.webp" alt="Ironman Biker with Lightning" width="300" height="200">
+                <img src="images/Jellystone Park.jpg" alt="Jellystone Water Park" width="300" height="200">
+                <img src="images/Peach Days.jpg" alt="Peach Days Exhibits Quilts and Military" width="300" height="200">
+                <img src="images/sandhollow-hurricane-lg.webp" alt="Sandhollow State Park" width="300" height="200">
+                <img src="images/hurricane-canal-trail-history-3.jpg" alt="Historic William Hinton Canal trail"
+                    width="300" height="200">
+            </div>
     </main>
     <!--<nav>
 
