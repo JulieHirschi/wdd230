@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://juliehirschi.gethub.io/wdd230/index.html">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="icon" href="favicon (4).ico">
+    <link rel="icon" href="favicon.ico">
     <title>Julie Hirschi - WDD230 Web Frontend Development</title>
 </head>
 
@@ -26,47 +26,46 @@
     <h1>Simple Form</h1>
     <form method="get">
         <p class="smaller">*️⃣ Indicates a required field</p>
+        <div>
+            <label for="username" class="req">Username</label>
+            <input type="text" id="username" name="username" required placeholder="Please enter your username">
+            <div>
+            </div>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" pattern="[a-zA-Z0-9_.\-]{8,}"
+                placeholder="At least 8 letters/numbers long.">
+            <div>
+            </div>
+            <label for="password2">Re-enter Your Password</label>
+            <input type="text" id="password2" name="password2">
+            <div>
+            </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your byui email address"
+                title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required>
+            <input type="submit" value="Validate">
+            <div>
+            </div>
+            <label for="r">Page Rating: </label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
 
-        <label for="username" class="req">Username</label>
-        <input type="text" id="username" name="username" required placeholder="Please enter your username">
-    </form>
-    <form>
-        <label for="password">Password</label>
-        <input type="text" id="password" name="password" pattern="[a-zA-Z0-9_.\-]{8,}"
-            placeholder="At least 8 letters/numbers long.">
-    </form>
-    <form>
-        <label for="password2">Re-enter Your Password</label>
-        <input type="text" id="password2" name="password2">
-    </form>
-    <form>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your byui email address"
-            title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required>
-        <input type="submit" value="Validate">
-    </form>
-    <form>
-        <label for="r">Page Rating: </label>
-        <div id="rangevalue">0</div>
-        <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
-        <datalist id="rangevalues">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </datalist>
 
-    </form>
-    <form>
-        <button id="btnSubmit" type="submit">Submit Form</button>
-        <input type="hidden" value="43aster">
+            <button id="btnSubmit" type="submit">Submit Form</button>
+            <input type="hidden" value="43aster">
     </form>
 
 </body>
