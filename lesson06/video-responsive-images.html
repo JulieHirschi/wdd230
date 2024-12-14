@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1. 0" />
+    <title>Responsive Images</title>
+</head>
+
+<!--<body style="margin: 0">
+    <img style="width: 100vw" src="images/landscape.jpg"
+        sizes="100vw"
+        srcset="images/landscape.jpg 1024w, images/landscape-medium.jpg 640w, images/landscape-small.jpg 320w"
+        alt="Landscape" />
+</body>-->
+
+<body style="margin: 0">
+    <picture>
+        <source media="(min-width: 320px)" srcset="images/landscape-small.jpg" />
+        <source media="(min-width: 640px)" srcset="images/landscape-medium.jpg" />
+        <!--<source media="(min-width: 1024px)" srcset="images/landscape.jpg" />-->
+        <ing src="images/landscape.jpg" style="width: 600px" alt="Landscape" />
+        <!--<img style="width: 100vw" src="images/landscape-small.jpg" alt="Landscape" />-->
+    </picture>
+</body>
+
+</html>

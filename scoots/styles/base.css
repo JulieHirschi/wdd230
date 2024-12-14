@@ -1,0 +1,90 @@
+.closebtn {
+    margin-left: 15px;
+    color: aqua;
+    background-color: yellowgreen;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+body {
+    background: #fd9330;
+    /*#ff7b00*/
+    color: #0b4360;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Sansita", sans-serif;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* mobile **************************/
+header {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: aqua;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: orangered;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+.active {
+    color: brown;
+}
+
+/* Larger Views ******************************/
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
