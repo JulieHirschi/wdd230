@@ -1,0 +1,24 @@
+function change_rental(selected_rental) {
+    const dbRent = JSON.stringify({table:sel, linit: 4
+    });
+    const choice = new choiceRequest();
+    choice.onload = function() {
+        myLst = JSON.parse(this.responseText);
+        text = "<table border='1'>"
+        for (x in myLst) {
+            text += "<tr><td>" + myLst[x
+            ].name + "</td><td>" + myLst[x
+            ].description + "</td><td>" + myLst[x
+            ].price + "</td></tr>";
+        }
+        text += "</table>"
+        document.getElementById("rental").innerHTML = text;
+    } 
+    choice.open("POST",
+    "scoots/data/rentals.json", true);
+    choice.setRequestHeader("Content-type",
+    "application/x-www-form-urlencoded");
+    choice.send("x=" + dbRent);
+}
+/*fetch(url)  
+    .then(response => response.json())*/

@@ -4,43 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <meta name="title" content="wdd230-Julie-Hirschi">
+    <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Final Project">
+    <meta name="author" content="Julie Hirschi">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="wdd230-Julie-Hirschi">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/base.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <h1 contenteditable>Nav bar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <image src="images/scoots.jpg" alt="scoots">
-        <p>Two locations</p>
+    <h1>2 Locations to serve you.</h1>
+    <h2>Near the Ferry Dock, in El Centro de Cozumel</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2394.6514287195378!2d-86.95167436483902!3d20.511098469113065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock%2C%20El%20Centro%20de%20Cozumel!5e1!3m2!1sen!2sus!4v1734236704418!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
+    <h2>Near the Cruise Line Ports, Terminal Puerta Maya</h2>>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5696.701760950286!2d-86.97719406290604!3d20.478031887609063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya%2C%20Cozumel!5e1!3m2!1sen!2sus!4v1734237032584!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <div id="formmessage"></div>
-        <h1>Contact Us</h1>
-        <form method="get">
-            <p class="smaller">*️⃣ Indicates a required field</p>
-            <div>
-                <label for="name" class="req">* Name</label>
-                <input type="text" id="name" name="name" required placeholder="Full Name">
-            </div>
+    <div id="formmessage"></div>
+    <h1>Contact Us</h1>
+    <form method="get">
+        <p class="smaller">*️⃣ Indicates a required field</p>
+        <div>
+            <label for="name" class="req">* Name</label>
+            <input type="text" id="name" name="name" required placeholder="Full Name">
+        </div>
 
-            <label for="email">* Email:</label>
-            <input type="email" id="email" name="email" placeholder="validemail@example.com" required>
-            </div>
+        <label for="email">* Email:</label>
+        <input type="email" id="email" name="email" placeholder="validemail@example.com" required>
+        </div>
 
-            <div class="comment">
-                <label for="comments">Comments:</label>
-                <textarea id="comments" name="comments" rows="4" cols="50"
-                    placeholder="Please enter your comments"></textarea>
-            </div>
+        <div class="comment">
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"
+                placeholder="Please enter your comments"></textarea>
+        </div>
 
 
 
-            <button id="btnSubmit" type="submit">Submit Form</button>
-            <input type="hidden" value="43aster">
-        </form>
+        <button id="btnSubmit" type="submit">Submit Form</button>
+        <input type="hidden" value="43aster">
+    </form>
 
+
+    <footer></footer>
+    <script src="scripts/googlemap.js"></script>
 </body>
-<footer></footer>
 
 </html>

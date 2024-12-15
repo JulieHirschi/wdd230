@@ -4,16 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <meta name="title" content="wdd230-Julie-Hirschi">
+    <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Final Project">
+    <meta name="author" content="Julie Hirschi">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="wdd230-Julie-Hirschi">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/base.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <h1 contenteditable>Nav bar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <div id="formmessage"></div>
-    <h1>Contact Us</h1>
+    <h1>Reservations</h1>
     <form method="get">
         <p class="smaller">*️⃣ Indicates a required field</p>
 
@@ -27,21 +40,28 @@
         </div>
         <label; fpr="country">Country:</label>
             <select id="country" name="country">
+                <option value disabled selected>Select Country</option>
                 <option value="usa">USA</option>
                 <option value="canada">Canada</option>
                 <option value="mexico">Mexico</option>
                 <option value="other">Other</option>
             </select>
-
-
+            <label for="phone">* Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="1235551234" required>
+            <label for="crzline">Cruise Line:</label>
+            <input type="crzline" id="crzline" name="crzline" placeholder="if applicable">
+            <label for="date">* Date of Arrival:</label>
+            <input type="date" id="date" name="date" required>
             <div class="comment">
                 <label for="comments">Special Accomodations/comments:</label>
                 <textarea id="comments" name="comments" rows="4" cols="50"
                     placeholder="Please enter your comments"></textarea>
             </div>
+            <button id="btnSubmit" type="submit">Submit Form</button>
 
 
+
+            <footer contenteditable>Footer Content - Header.com</footer>
 </body>
-<footer contenteditable>Footer Content - Header.com</footer>
 
 </html>
