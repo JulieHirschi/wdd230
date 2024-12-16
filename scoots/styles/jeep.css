@@ -1,0 +1,31 @@
+.h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.bgleft-img {
+    background-image: image("../images/afdjeep.webp");
+    min-height: 380px background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgright-img {
+    background-image: image("../images/atdjeepw.webp");
+    min-height: 380px background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
