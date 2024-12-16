@@ -17,18 +17,6 @@ body {
     grid-template-rows: auto auto 1fr auto;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f0f0f0;
-    /* Optional: Set a background color */
-}
-
 .container {
     width: 80%;
     /* Adjust the width as needed */
