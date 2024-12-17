@@ -18,9 +18,16 @@
     <div class="alert">
         <span class="closebtn" onclick="this.parentElement.style.display='none' ;">&times;</span>
         <strong>Todays High Temp</strong>
+        <img id="weather-icon" src="" alt="">
     </div>
     <header>
-        <h1 contenteditable>Header.com</h1>
+        <div class="header">
+            <img src="images/cozumelBeach.webp" alt="Colorful Cozumel Block Letters">
+            <div class="header-content">
+                <h1>Scoots</h1>
+                <p>Create your own adventure...</p>
+            </div>
+        </div>
     </header>
     <nav>
         <ul>
@@ -32,7 +39,16 @@
     </nav>
     <main contenteditable>Main Content Area</main>
     <aside contenteditable>Right Sidebar</aside>
-    <footer contenteditable>Footer Content - Header.com</footer>
+    <section class="card right">
+        <h3>Information</h3>
+        <div class="weather-container">
+            <p>The current temperature in San Miguel, Cozumel is <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <footer contenteditable>Footer Content - Header.com</footer>
+            <script src="scripts/weather.js"></script>
 </body>
 
 </html>
