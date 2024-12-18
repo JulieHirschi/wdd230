@@ -12,6 +12,7 @@
     <meta property="og:type" content="website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <title>Scoots Site</title>
 </head>
@@ -24,9 +25,9 @@
     </div>
     <header>
         <div class="header">
-            <img src="images/cozumelBeach.webp" alt="Colorful Cozumel Block Letters">
+            <img src="images/cozumelcolor.webp" alt="Colorful Cozumel Block Letters">
             <div class="header-content">
-                <h1>Scoots</h1>
+                <h1>Scoots Rentals</h1>
                 <p>Create your own adventure...</p>
             </div>
         </div>
@@ -40,49 +41,51 @@
         </ul>
     </nav>
     <main>
-        <section class="weather">
-            <h3>Information</h3>
-            <div class="weather-container">
-                <p>The current temperature in San Miguel, Cozumel is <span id="current-temp"></span></p>
-                <figure>
-                    <img id="weather-icon" src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
+        <div class="row">
+            <!-- div class="leftcolumn"> -->
+            <div class="card">
+                <h2>Things to do in Cozumel, Mexico</h2>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Paragraph</p>
+            </div>
+            <div class="card">
+                <h2>Make your own path...</h2>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Paragraph</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Local Weather</h2>
+                <h3>Information</h3>
+                <div class="weather-container">
+                    <p>The current temperature in San Miguel, Cozumel is <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon"
+                            src="https://api.openweathermap.org/data/2.5/weather?lat={20.51}&lon={-86.95}&appid={7651ecab2df64c4a9807a37fb3f162a1}"
+                            alt="Image of weather">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
                 <div class="card">
-                    <h2>Escape</h2>
-                    <p>Paragraph</p>
-                </div>
-                <div class="card-1">
-                    <h2>Explore</h2>
-                    <p>Paragraph</p>
-                </div>
-                <div class="card-2">
-                    <h2>Scooter</h2>
-                    <p>Paragraph</p>
-                </div>
-                <div class="card-3">
-                    <h2>ATV</h2>
-                    <p>Paragraph</p>
-                </div>
-                <div class="card-4">
-                    <h2>Jeep</h2>
-                    <p>Paragraph</p>
-                </div>
-                <div class="card-5">
-                    <h2>School</h2>
-                    <p>Paragraph</p>
-                </div>
-                <div class="card-6">
-                    <h2>Work</h2>
-                    <p>Paragraph</p>
+                    <h2>Rental Style's</h2>
+                    <h3>Scooter</h3>>
+                    <div class="">Image</div><br>
+                    <h3>ATV</h3>
+                    <div class="">Image</div><br>
+                    <h3>Jeep</h3>
+                    <div class="">Image</div>
                 </div>
                 <!-- <aside contenteditable>Right Sidebar</aside> -->
 
     </main>
     <footer>
+        <p>Follow us on social media</p>
+
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
+        <p>&copy; 2024 Julie Hirschi</p>
     </footer>
     <script src="scripts/weather.js"></script>
 </body>

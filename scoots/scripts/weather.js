@@ -1,6 +1,6 @@
 const latitude = 20.51;
 const longitude = -86.95;
-const apiKey = '3f8c8050d69dd39715ce059e91c97bf3';
+const apiKey = '7651ecab2df64c4a9807a37fb3f162a1';
 
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
