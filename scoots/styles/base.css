@@ -205,3 +205,30 @@ footer {
 price {
     list-style-type: none;
 }
+
+.rentals {
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+table,
+th,
+td {
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background-color: aqua;
+    color: Navy;
+}

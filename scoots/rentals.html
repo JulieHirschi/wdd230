@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="wdd230-Julie-Hirschi">
     <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Final Project">
     <meta name="author" content="Julie Hirschi">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="wdd230-Julie-Hirschi">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/rentals.css">
     <link rel="stylesheet" href="styles/base.css">
     <title>Document</title>
 </head>
@@ -48,9 +49,31 @@
         <li>payment via Google Pay, Apple Pay, Cash, Credit Card, Debit Card, or Venmo.</li>
         <li>Rentals may be returned to either physical location.</li>
     </ul>
-
+    <div class="row">
+        <div class="column" onclick="openTab" ('b1');" style="background-color:green;">Box 1</div>
+        <div class="column" onclick="openTab" ('b2');" style="background-color:blue;">Box 2</div>
+        <div class="column" onclick="openTab" ('b3');" style="background-color:red;">Box 3</div>
+    </div>
+    <div id="b1" class="containerTab" style="display:none;background:green">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
+        <h2>Scooter</h2>
+    </div>
+    <div id="b2" class="containerTab" style="display:none;background:blue">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
+        <h2>ATV</h2>
+    </div>
+    <div id="b3" class="containerTab" style="display:none;background:red">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
+        <h2>Jeep</h2>
+    </div>
+    <h2>Location 1</h2>
+    <p>1234 Main Street</p>
+    <p>Cozumel, Mexico</p>
+    <p>Phone: 123-456-7890</p>
+    </div>
     <aside contenteditable>Right Sidebar</aside>
     <footer contenteditable>Footer Content - Header.com</footer>
+    <script src="scripts/rentals.js"></script>
 </body>
 
 </html>

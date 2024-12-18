@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="wdd230-Julie-Hirschi">
     <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Final Project">
     <meta name="author" content="Julie Hirschi">
@@ -75,6 +75,12 @@
                     <div class="">Image</div><br>
                     <h3>Jeep</h3>
                     <div class="">Image</div>
+                    <select id="rentals" onchange="change_rentals(this.value)">
+                        <option value="none">Rent Now</option>
+                        <option value="scooter">Scooter</option>
+                        <option value="motorcycle">ATV</option>
+                        <option value="car">Jeep</option>
+                    </select>
                 </div>
                 <!-- <aside contenteditable>Right Sidebar</aside> -->
 
