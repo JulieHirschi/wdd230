@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="wdd230-Julie-Hirschi">
     <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Final Project">
     <meta name="author" content="Julie Hirschi">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="wdd230-Julie-Hirschi">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <title>Document</title>
 </head>
@@ -53,10 +54,10 @@
                     <option value="other">Other</option>
                 </select>
                 <label for="phone">* Phone:</label>
-                <input type="tel" id="phone" name="phone" placeholder="1235551234" required>
+                <input type="tel" id="phone" name="phone" placeholder="1235551234" required><br>
                 <label for="crzline">Cruise Line:</label>
                 <input type="crzline" id="crzline" name="crzline" placeholder="if applicable">
-                <input type="radio" id="scooter" <label for="date">* Date of Arrival:</label>
+                <label for="date">* Date of Arrival:</label>
                 <input type="date" id="date" name="date" required>
                 <div class="comment">
                     <label for="comments">Special Accomodations/comments:</label>
@@ -67,7 +68,20 @@
 
 
 
-                <footer contenteditable>Footer Content - Header.com</footer>
+                <footer>
+                    <div id="locLeft" class="location">
+                        <h2>Location 1</h2>
+                        <p>1234 Main Street</p>
+                        <p>Cozumel, Mexico</p>
+                        <p>Phone: 123-456-7890</p>
+                    </div>
+                    <p>Follow us on social media</p>
+
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <p>&copy; 2024 Julie Hirschi</p>
+                </footer>
 </body>
 
 </html>

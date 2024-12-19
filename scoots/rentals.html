@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="wdd230-Julie-Hirschi">
     <meta name="description" content="WDD230 - Frontend Development Julie Hirschi - Final Project">
     <meta name="author" content="Julie Hirschi">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="wdd230-Julie-Hirschi">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/rentals.css">
     <link rel="stylesheet" href="styles/base.css">
     <title>Document</title>
@@ -26,17 +27,9 @@
             </ul>
         </nav>
     </header>
-    <select id="rentals" onchange="change_rentals(this.value)">
-        <option value="none">Select a Rental Option:</option>
-        <option value="scooter">Scooter</option>
-        <option value="motorcycle">ATV</option>
-        <option value="car">Jeep</option>
-    </select>
-    <!-- <div class="columns"> -->
-    <!-- <ul class="price"> -->
-    <!-- <li class </ul> -->
+
     </div>
-    <h3>Rental Services and Agreements</h3>
+    <h1>Rental Services and Agreements</h1>
     <ul>
         <li>A $50 security deposit is required to confirm resservations.</li>
         <li>A valid drivers license is required in hand at the time of rental.</li>
@@ -46,33 +39,81 @@
         <li>Liability insurance is included.</li>
         <li>Damage insurance is available for purchase.</li>
         <li>Free delivery to Cazumel hotels ar Airbnbs for 2+ day rentals.</li>
-        <li>payment via Google Pay, Apple Pay, Cash, Credit Card, Debit Card, or Venmo.</li>
+        <li>Payment via Google Pay, Apple Pay, Cash, Credit Card, Debit Card, or Venmo.</li>
         <li>Rentals may be returned to either physical location.</li>
     </ul>
+    <div style="text-align:center">
+        <h1>Our Fleet</h1>
+        <h2>Click on the boxes below:</h2>
+    </div>
     <div class="row">
-        <div class="column" onclick="openTab" ('b1');" style="background-color:green;">Box 1</div>
-        <div class="column" onclick="openTab" ('b2');" style="background-color:blue;">Box 2</div>
-        <div class="column" onclick="openTab" ('b3');" style="background-color:red;">Box 3</div>
+        <div class="column" onclick="openTab('b1');" style="background-color: green;">Scooters</div>
+        <div class="column" onclick="openTab('b2');" style="background-color:blue;">ATV</div>
+        <div class="column" onclick="openTab('b3');" style="background-color:red;">Jeeps</div>
     </div>
     <div id="b1" class="containerTab" style="display:none;background:green">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
         <h2>Scooter</h2>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/scooter.webp">
+            <source media="(max-width: 501px)" srcset="images/scooter.webp">
+            <img src="images/hBlueMet.webp" alt="Scooter" style="width:auto;">
+            <div class="overlay">Honda Metro</div>
+        </picture>
+
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/scooter.webp">
+            <source media="(max-width: 501px)" srcset="images/scooter.webp">
+            <img src="images/hDio.webp" alt="Scooter" style="width:auto;">
+            <div class="overlay">Honda Dio</div>
+        </picture>
+
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/scooter.webp">
+            <source media="(max-width: 501px)" srcset="images/scooter.webp">
+            <img src="images/hDioT.webp" alt="Scooter" style="width:auto;">
+            <div class="overlay">Honda PCX150</div>
+        </picture>
     </div>
     <div id="b2" class="containerTab" style="display:none;background:blue">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
         <h2>ATV</h2>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/scooter.webp">
+            <source media="(max-width: 501px)" srcset="images/scooter.webp">
+            <img src="images/hPioneer.webp" alt="ATV" style="width:auto;">
+            <div class="overlay">Honda Pioneer</div>
     </div>
     <div id="b3" class="containerTab" style="display:none;background:red">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
         <h2>Jeep</h2>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/scooter.webp">
+            <source media="(max-width: 501px)" srcset="images/scooter.webp">
+            <img src="images/afdjeep.webp" alt="Scooter" style="width:auto;">
+        </picture>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/scooter.webp">
+            <source media="(max-width: 501px)" srcset="images/scooter.webp">
+            <img src="images/atdjeepw.webp" alt="Scooter" style="width:auto;">
+        </picture>
     </div>
-    <h2>Location 1</h2>
-    <p>1234 Main Street</p>
-    <p>Cozumel, Mexico</p>
-    <p>Phone: 123-456-7890</p>
-    </div>
+
     <aside contenteditable>Right Sidebar</aside>
-    <footer contenteditable>Footer Content - Header.com</footer>
+    <footer>
+        <div id="locLeft" class="location">
+            <h2>Location 1</h2>
+            <p>1234 Main Street</p>
+            <p>Cozumel, Mexico</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+        <p>Follow us on social media</p>
+
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <p>&copy; 2024 Julie Hirschi</p>
+    </footer>
     <script src="scripts/rentals.js"></script>
 </body>
 
