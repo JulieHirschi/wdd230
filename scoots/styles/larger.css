@@ -1,0 +1,62 @@
+/* Larger Views ******************************/
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
+
+@media (width > 640px) {
+
+    /* If the media is larger than 640 px then the grid-template-columns change to 4 */
+    .main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* @media (width > 640px) { */
+
+/* If the media is larger than 640 px then the grid-template-columns change to 4 */
+/* .main { */
+/* display: grid; */
+/* grid-template-columns: repeat(4, 1fr); */
+/* } */
+/* } */
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    background-color: #f5f5f5;
+    padding: 1.25rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

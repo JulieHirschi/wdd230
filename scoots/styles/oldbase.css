@@ -61,54 +61,8 @@ body {
     gap: 1rem;
 }
 
-@media (width > 640px) {
-
-    /* If the media is larger than 640 px then the grid-template-columns change to 4 */
-    .main {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-.card {
-    background-color: #fff;
-    border-radius: 0.5rem;
-    min-block-size: 7rem;
-    padding: 1rem;
-}
-
-.card-1 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-}
 
 
-@media (width > 640px) {
-    .card-1 {
-        grid-column: 1 / span 1;
-        grid-row: 1 / span 1;
-    }
-}
-
-@media (width > 640px) {
-
-    .card-2,
-    .card-3 {
-        grid-area: auto;
-    }
-
-    .card-4 {
-        grid-area: 3 / 1 / 4 / 2;
-
-        .card-5 {
-            grid-area: 3 / 2 / 4 / 3;
-        }
-
-        .card-6 {
-            grid-area: 3 / 3 / 4 / 4;
-        }
-    }
-}
 
 .sidebar {
     grid-area: sidebar;
