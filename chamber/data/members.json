@@ -1,16 +1,76 @@
-const fridbutton = document.querySelector("#grid");
-const listbutton =
-document.querySelector("#list");
-const grid = document.querySelector(".grid");
-
-gridbutton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showlist);
-
-function showList() {
-    display.classList.add("list")
-    display.classList.remove("grid");
-});
+{
+    "members": [
+        {
+            "name": "Simple Pleasures Salon",
+            "logo": "images/SPS_crop_sm.webp",
+            "address": "57 E State St. hurricane, UT 84737",
+            "phone": "(435) 635-3125",
+            "website": "business.html",
+            "membership": "Gold"
+        },
+        {
+            "name": "Dixie Nutrition",
+            "logo": "images/Dixie_Nutr_Logo.webp",
+            "address": "57 Main St., Hurricane, UT 84737",
+            "phone": "(435) 635-2113",
+            "website": "https://dixienutrition.com/",
+            "membership": "Gold"
+        },
+        {
+            "name": "Scholzen Products",
+            "logo": "images/SP_Logo.webp",
+            "address": "548 W 100 N, Hurricane, UT 84737",
+            "phone": "(435) 635-4441",
+            "website": "https://www.scholzens.com/",
+            "membership": "Silver"
+        },
+        {
+            "name": "Tom's Clip Joint",
+            "logo": "",
+            "address": "119 W State Street, Hurricane, UT 84737",
+            "phone": "(435) 635-4291",
+            "website": "https://www.facebook.com/pages/Toms-Clip-Joint/273238819459343",
+            "membership": "Gold"
+        },
+        {
+            "name": "Small Town Auto Sales",
+            "logo": "images/Sm_town_Auto.webp",
+            "address": "678 W State Street, Hurricane, UT 84737",
+            "phone": "(435) 635-2501",
+            "website": "https://www.smalltownautosales.com/",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Ballards Nursery",
+            "logo": "images/Ballards_Nursery_Sign.webp",
+            "address": "691 N State Street, Hurricane, UT 84737",
+            "phone": "(435) 635-4274",
+            "website": "https://www.facebook.com/ballardsnsy/",
+            "membership": "Bronze"
+        },
+        {
+            "name": "PaPa Murphy's Pizza",
+            "logo": "images/Papa_M_Pizza_Logo.webp",
+            "address": "535 WEst State Street, Hurricane, UT 84737",
+            "phone": "(435) 635-7272",
+            "website": "https://locations.papamurphys.com/ut/hurricane/535-west-state-street?utm_source=organic&utm_medium=gmb&utm_campaign=yext",
+            "membership": "Silver"
+        },
+        {
+            "name": "Muddy Bee's Bakery",
+            "logo": "images/Muddy_Bs_Bakery Logo.webp",
+            "address": "525 State St. #7, Hurricane, UT 84737",
+            "phone": "(435) 467-4898",
+            "website": "https://www.muddybeesbakery.com/",
+            "membership": "Gold"
+        },
+        {
+            "name": "JJ's Frostop",
+            "logo": "images/Frostop_Drive-In image.webp",
+            "address": "116 West State Street, Hurricane, UT 84737",
+            "phone": "(435) 635-5528",
+            "website": "https://www.facebook.com/crosscountrydiner/",
+            "membership": "Gold"
+        }
+    ]
+}

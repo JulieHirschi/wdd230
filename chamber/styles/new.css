@@ -1,0 +1,39 @@
+.grid-container {
+    display: inline-grid;
+    /*grid; (instead of inline-grid*/
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    grid-column: 2 / 3;
+}
+
+right-side {
+    grid-column: 2 / 3;
+}
+
+.container {
+    width: 80%;
+    /* Adjust the width as needed */
+    max-width: 1200px;
+    /* Optional: Set a maximum width */
+    background-color: #fff;
+    /* Optional: Set a background color for the container */
+    padding: 2rem;
+    /* Optional: Add padding inside the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a box shadow */
+    border-radius: 8px;
+    /* Optional: Add border radius */
+}
