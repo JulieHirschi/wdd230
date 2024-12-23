@@ -12,6 +12,7 @@
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/reservations.css">
     <title>Document</title>
 </head>
 
@@ -27,61 +28,85 @@
         </nav>
     </header>
     <div id="formmessage"></div>
-    <h1>Reservations</h1>
-    <p>Fill out the form below to reserve your scooter, ATV, or Jeep today!</p>
+    <h1>Scoots Rental Reservations</h1>
+    <h2>Please fill out this form to reserve your Scoots Rental Scooter, ATV, or Jeep today!</h2>
     <picture>
         <source media="(min-width: 650px)" srcset="images/scooter.webp">
         <source media="(min-width: 465px)" srcset="images/scooter.webp">
         <img src="images/scooter.webp" alt="Scooter" style="width:auto;">
+    </picture>
+    <div class="container">
         <form method="get">
             <p class="smaller">*️⃣ Indicates a required field</p>
+            <label for="name" class="req">* Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Full Name"><br>
+            <label for="email" class="req">* Email:</label>
+            <input type="email" id="email" name="email" placeholder="customer@example.com" required><br>
 
-            <div>
-                <label for="name" class="req">* Name</label>
-                <input type="text" id="name" name="name" required placeholder="Full Name">
-            </div>
-            <div>
-                <label for="email" class="req">* Email</label>
-                <input type="email" id="email" name="email" placeholder="customer@example.com" required>
-            </div>
+            <label for="phone">* Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="1235551234" required><br>
 
-            <label; fpr="country">Country:</label>
-                <select id="country" name="country">
-                    <option value disabled selected>Select Country</option>
-                    <option value="usa">USA</option>
-                    <option value="canada">Canada</option>
-                    <option value="mexico">Mexico</option>
-                    <option value="other">Other</option>
-                </select>
-                <label for="phone">* Phone:</label>
-                <input type="tel" id="phone" name="phone" placeholder="1235551234" required><br>
-                <label for="crzline">Cruise Line:</label>
-                <input type="crzline" id="crzline" name="crzline" placeholder="if applicable">
-                <label for="date">* Date of Arrival:</label>
-                <input type="date" id="date" name="date" required>
-                <div class="comment">
-                    <label for="comments">Special Accomodations/comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="50" s
-                        placeholder="Please enter your comments"></textarea>
-                </div>
-                <button id="btnSubmit" type="submit">Submit Form</button>
+            <label for="crzline">Cruise Line:</label>
+            <input type="crzline" id="crzline" name="crzline" placeholder="if applicable"><br>
+
+            <label for="date">* Date of Arrival:</label>
+            <input type="date" id="date" name="date" required>
+            <form action="country">
+                <p>Country:</p>
+                <input type="radio" id="usa" name="usa" value="usa">
+                <label for="usa">USA</label>
+                <input type="radio" id="canada" name="canada" value="canada">
+                <label for="canada">Canada</label>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">Other</label><br>
 
 
-
-                <footer>
-                    <div id="locLeft" class="location">
-                        <h2>Location 1</h2>
-                        <p>1234 Main Street</p>
-                        <p>Cozumel, Mexico</p>
-                        <p>Phone: 123-456-7890</p>
+                <label; fpr="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value disabled selected>Select Country</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="form-check">
+                        <input type="checkbox" id="scooter" name="scooter" value="scooter">
+                        <label for="scooter">Basic Scooter</label>
+                        <input type="checkbox" id="scooter" name="scooter" value="scooter">
+                        <label for="scooter">Dio Scooter</label>
+                        <input type="checkbox" id="scooter" name="scooter" value="scooter">
+                        <label for="scooter">PCX Scooter</label>
+                        <input type="checkbox" id="atv" name="atv" value="atv">
+                        <label for="atv">ATV</label>
+                        <input type="checkbox" id="jeep" name="jeep" value="jeep">
+                        <label for="jeep">Hardtop a/c Jeep</label>
+                        <input type="checkbox" id="jeep" name="jeep" value="jeep">
+                        <label for="jeep">Open Jeep</label>
                     </div>
-                    <p>Follow us on social media</p>
 
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <p>&copy; 2024 Julie Hirschi</p>
-                </footer>
+                    <div class="comment">
+                        <label for="comments">Special Accomodations/comments:</label>
+                        <textarea id="comments" name="comments" rows="4" cols="50" s
+                            placeholder="Please enter your comments"></textarea>
+                    </div>
+                    <button id="btnSubmit" type="submit">Reserve Now</button>
+
+
+
+                    <footer>
+                        <div id="locLeft" class="location">
+                            <h2>Location 1</h2>
+                            <p>1234 Main Street</p>
+                            <p>Cozumel, Mexico</p>
+                            <p>Phone: 123-456-7890</p>
+                        </div>
+                        <p>Follow us on social media</p>
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <p>&copy; 2024 Julie Hirschi</p>
+                    </footer>
 </body>
 
 </html>

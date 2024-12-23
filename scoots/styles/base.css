@@ -13,8 +13,8 @@ body {
 
 .closebtn {
     margin-left: 15px;
-    color: aqua;
-    background-color: yellowgreen;
+    color: #00ffff;
+    background-color: #9acd32;
     font-weight: bold;
     float: right;
     font-size: 22px;
@@ -24,7 +24,7 @@ body {
 }
 
 .closebtn:hover {
-    color: black;
+    color: #000000;
 }
 
 /* mobile **************************/
@@ -66,6 +66,7 @@ main {
     /* position: relative; */
     margin: 0 auto;
     padding: 1.25rem;
+    background-color: #b1f198;
 }
 
 .header .img {
@@ -81,8 +82,8 @@ main {
 .header .header-content {
     position: relative;
     top: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
+    background: #000000;
+    background: #00000080;
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -92,7 +93,7 @@ main {
 .hero {
     margin: 10px auto;
     position: relative;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid #0000001a;
     height: 300px;
 }
 
@@ -109,7 +110,7 @@ h1 {
 }
 
 nav {
-    background-color: aqua;
+    background-color: #00ffff;
     margin: 0 auto;
     width: 100%;
 }
@@ -120,7 +121,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: orangered;
+    color: #ff4500;
     font-size: 25px;
     text-align: center;
     padding: 1rem;
@@ -132,13 +133,13 @@ nav a:hover {
 }
 
 .active {
-    color: brown;
+    color: #a52a2a;
 }
 
 
 
 footer {
-    background-color: #e0b499;
+    background-color: #b1f198;
     padding: 20px;
     text-align: center;
 }
@@ -158,17 +159,17 @@ footer {
 
 .fa-facebook {
     background: #3B5998;
-    color: white;
+    color: #ffffff;
 }
 
 .fa-twitter {
     background: #55ACEE;
-    color: white;
+    color: #ffffff;
 }
 
 .fa-instagram {
     background: #125688;
-    color: white;
+    color: #ffffff;
 }
 
 .ul {
@@ -195,17 +196,18 @@ price {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    list-style-type: none;
 }
 
 table,
 th,
 td {
-    border: 1px solid green;
+    border: 1px solid #008000;
     border-collapse: collapse;
     padding: 10px;
 }
 
 th {
-    background-color: aqua;
-    color: Navy;
+    background-color: #00ffff;
+    color: #000080;
 }

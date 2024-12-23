@@ -47,62 +47,69 @@
         <h2>Click on the boxes below:</h2>
     </div>
     <div class="row">
-        <div class="column" onclick="openTab('b1');" style="background-color: green;">Scooters</div>
-        <div class="column" onclick="openTab('b2');" style="background-color:blue;">ATV</div>
-        <div class="column" onclick="openTab('b3');" style="background-color:red;">Jeeps</div>
+        <div class="column" onclick="openTab('b1');" style="background-color: #01c532;">Honda Motor Scooters</div>
+        <div class="column" onclick="openTab('b2');" style="background-color:#2121ee;">Side-by-Side ATVs</div>
+        <div class="column" onclick="openTab('b3');" style="background-color:#df3c3c;">Jeeps</div>
     </div>
-    <div id="b1" class="containerTab" style="display:none;background:green">
+    <div id="b1" class="containerTab" style="display:none;background:#01c532">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
-        <h2>Scooter</h2>
-        <picture>
+        <h1>Scooters</h1>
+        <h2>Click on an image to see additional information.</h2>
+        <a href="scooter.html"><img src="images/scooter-bb.webp" alt="Blue Honda Metro"
+                style="width: 750px;height:525px;">
+            <title>Honda Metro (49cc)</title>
+        </a>
+        <!--<picture>
             <source media="(max-width: 500px)" srcset="images/scooter.webp">
             <source media="(max-width: 501px)" srcset="images/scooter.webp">
             <img src="images/scooter-bb.webp" alt="Scooter" style="width:auto;">
-            <div class="overlay">Honda Metro</div>
-        </picture>
-
-        <picture>
+            <div class="overlay">Honda Metro (49cc)</div>
+        </picture>-->
+        <a href="scooter.html"><img src="images/scooter-mo.webp" alt="Orange Honda Dio"
+                style="width: 750px;height:525px;">
+            <title>Honda Dio (110 cc)</title>
+        </a>
+        <!--<picture>
             <source media="(max-width: 500px)" srcset="images/scooter.webp">
             <source media="(max-width: 501px)" srcset="images/scooter.webp">
             <img src="images/scooter-mo.webp" alt="Scooter" style="width:auto;">
-            <div class="overlay">Honda Dio</div>
-        </picture>
-
-        <picture>
+            <div class="overlay">Honda Dio (110cc)</div>
+        </picture>-->
+        <a href="scooter.html"><img src="images/scooter-pcx.webp" alt="White Honda PCX150 "
+                style="width: 750px;height:525px;">
+            <title>Honda PCX150 (149cc)</title>
+        </a>
+        <!--<picture>
             <source media="(max-width: 500px)" srcset="images/scooter.webp">
             <source media="(max-width: 501px)" srcset="images/scooter.webp">
             <img src="images/scooter-pcx.webp" alt="Scooter" style="width:auto;">
-            <div class="overlay">Honda PCX150</div>
+            <div class="overlay">Honda PCX150 (149cc)</div>-->
         </picture>
     </div>
-    <div id="b2" class="containerTab" style="display:none;background:blue">
+    <div id="b2" class="containerTab" style="display:none;background:#2121ee">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
-        <h2>ATV</h2>
-        <picture>
+        <h1>Side-by-Side ATVs</h1>
+        <h2>Click on an image to see additional information.</h2>
+        <a href="atv.html"><img src="images/atv.webp" alt="Four Door Jeep" style="width: 750px;height:525px;">
+            <title>Honda Pioneer 1000</title>
+        </a>
+        <!--<picture>
             <source media="(max-width: 500px)" srcset="images/scooter.webp">
             <source media="(max-width: 501px)" srcset="images/scooter.webp">
             <img src="images/atv.webp" alt="ATV" style="width:auto;">
-            <div class="overlay">Honda Pioneer</div>
+            <div class="overlay">Honda Pioneer 1000</div>-->
     </div>
-    <div id="b3" class="containerTab" style="display:none;background:red">
+    <div id="b3" class="containerTab" style="display:none;background:#df3c3c">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
-        <h2>Jeep</h2>
-        <a href="reservations.html"><img src="images/afdjeep.webp" alt="Four Door Jeep"
-                style="width: 750px;height:525px;"></a>
-        <!-- <picture> -->
-        <!-- <source media="(max-width: 500px)" srcset="images/scooter.webp"> -->
-        <!-- <source media="(max-width: 501px)" srcset="images/scooter.webp"> -->
-        <!-- <img src="images/afdjeep.webp" alt="Scooter" style="width:auto;"> -->
-        <!-- </picture> -->
-        <!-- <picture> -->
-        <!-- <source media="(max-width: 500px)" srcset="images/scooter.webp"> -->
-        <!-- <source media="(max-width: 501px)" srcset="images/scooter.webp"> -->
-        <!-- <img src="images/atdjeepw.webp" alt="Scooter" style="width:auto;"> -->
-        <!-- </picture> -->
-        <a href="jeep.html"><img src="images/atdjeepw.webp" alt="Two Door Jeep" style="width:auto;"></a>
+        <h1>Jeeps</h1>
+        <h2>Click on an image to see additional information.</h2>
+        <a href="jeep.html"><img src="images/afdjeep.webp" alt="Four Door Jeep" style="width: 750px;height:525px;">
+            <title>Jeep Wrangler - 4 door</title>
+        </a>
+        <a href="jeep.html"><img src="images/atdjeepw.webp" alt="Two Door Jeep" style="width:auto;">
+            <title>Jeep Wrangler - 1 door</title>
+        </a>
     </div>
-
-    <aside contenteditable>Right Sidebar</aside>
     <footer>
         <div id="locLeft" class="location">
             <h2>Location 1</h2>

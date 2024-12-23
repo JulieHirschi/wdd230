@@ -39,7 +39,7 @@ h1 {
 nav {
     background-color: aqua;
     margin: 0 auto;
-    max-width: 800px;
+    width: 100%;
 }
 
 nav ul {

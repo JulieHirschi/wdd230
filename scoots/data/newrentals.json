@@ -1,0 +1,58 @@
+{
+    "rentals": [
+        {
+            "name": "Honda Metro Scooter (49cc)",
+            "image": "images/scooter-bb.webp",
+            "persons": "1",
+            "reservation-half": "$20",
+            "reservation-full": "$30",
+            "walk-in-half": "$25",
+            "walk-in-full": "$35"
+        },
+        {
+            "name": "Honda Dio Scooter (110cc)",
+            "image": "images/scooter.mo.webp",
+            "persons": "2",
+            "reservation-half": "$30",
+            "reservation-full": "$40",
+            "walk-in-half": "$35",
+            "walk-in-full": "$45"
+        },
+        {
+            "name": "Honda PCX150 (149cc)",
+            "image": "images/scooter-pcx.webp",
+            "persons": "2",
+            "reservation-half": "$40",
+            "reservation-full": "$50",
+            "walk-in-half": "$45",
+            "walk-in-full": "$55"
+        },
+        {
+            "name": "Honda Pioneer ATV 1000",
+            "image": "images/atv.webp",
+            "persons": "4",
+            "reservation-half": "$50",
+            "reservation-full": "$60",
+            "walk-in-half": "$60",
+            "walk-in-full": "$80"
+        },
+        {
+            "name": "Jeep Wrangler - 2 door",
+            "image": "images/atdjeepwm.webp",
+            "persons": "4",
+            "reservation-half": "$60",
+            "reservation-full": "$85",
+            "walk-in-half": "$70",
+            "walk-in-full": "$90"
+        },
+        {
+            "name": "Jeep Wrangler - 4 door",
+            "image": "images/afdjeep.webp",
+            "persons": "5",
+            "reservation-half": "$70",
+            "reservation-full": "$100",
+            "walk-in-half": "$85",
+            "walk-in-full": "$125"
+        }
+    ]
+}

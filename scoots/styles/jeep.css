@@ -12,6 +12,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .bgright-img {
@@ -20,6 +23,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .container {
@@ -28,4 +34,13 @@
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     margin: 10px;
+    list-style-type: none;
+}
+
+.price {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
 }
