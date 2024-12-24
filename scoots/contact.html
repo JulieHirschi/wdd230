@@ -38,8 +38,7 @@
         <picture>
             <source media="(max-width: 500px)" srcset="images/puertamayashop.webp">
             <source media="(max-width: 501px)" srcset="images/puertamayashop.webp">
-            <img src="images/puertamayashop.webp" alt="Cozumel Island with featured information" width="600"
-                height="450">
+            <img src="images/puertamayashop.webp" alt="Shop by Ferry Dock" width="600" height="450">
     </div>
     <div class="Bottom">
         <h2>Near the Cruise Line Ports, Terminal Puerta Maya</h2>>
@@ -50,19 +49,18 @@
         <picture>
             <source media="(max-width: 500px)" srcset="images/shops.webp">
             <source media="(max-width: 501px)" srcset="images/shops.webp">
-            <img src="images/shops.webp" alt="Cozumel Island with featured information" width="600" height="450">
+            <img src="images/shops.webp" alt="Shop by Cuise line Ports " width="600" height="450">
             <div id="formmessage"></div>
     </div>
     <h1>Contact Us</h1>
     <form method="get">
-        <p class="smaller">*️⃣ Indicates a required field</p>
         <div>
-            <label for="name" class="req">* Name</label>
+            <label for="name" class="req">Name</label>
             <input type="text" id="name" name="name" required placeholder="Full Name">
         </div>
 
-        <label for="email">* Email:</label>
-        <input type="email" id="email" name="email" placeholder="valid-email@example.com" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="valid-email@example.com">
         </div>
 
         <div class="comment">
@@ -71,11 +69,7 @@
                 placeholder="Please enter your comments"></textarea>
         </div>
 
-
-
-        <button id="btnSubmit" class="grey" type="submit">Submit Form</button>
-        <!--<input type="hidden" value="43aster">-->
-        <a href="thanks.html"><button>Submit Form</button></a>
+        <input type="button" value="Submit" onclick="window.open('thanks.html')">
 
     </form>
 
@@ -103,6 +97,7 @@
         <p>&copy; 2024 Julie Hirschi</p>
     </footer>
     <script src="scripts/googlemap.js"></script>
+    <script src="scripts/now.js"></script>
 </body>
 
 </html>
