@@ -87,7 +87,7 @@ nav {
     }
 }
 
-ul {
+.main ul {
     list-style-type: none;
 }
 
@@ -105,15 +105,8 @@ clearfix::after {
     display: table;
 }
 
-footer {
-    background: #c75911;
-    color: #022f40;
-    padding: 2rem;
-    text-align: center;
-}
-
 h1 {
-    font-size: 200%;
+    font-size: 250%;
     color: #022f40;
 
 }
@@ -148,6 +141,26 @@ img {
     border: 1px solid #022f40;
 }
 
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #c1c7ca);
+    border: 1px solid #022f40;
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", serif;
+}
+
 .label {
     font-family: Arial, sans-serif;
     font-weight: 700;
@@ -173,26 +186,6 @@ img {
     border-radius: 5px;
 }
 
-.herolabel {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background: radial-gradient(#fff, #c1c7ca);
-    border: 1px solid #022f40;
-    padding: 1.5rem;
-    box-shadow: 0 0 3rem #fff;
-    opacity: 0.75;
-}
-
-.herolabel p {
-
-    margin: 0;
-    padding: .25rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: "Great Vibes", serif;
-}
-
 @media (min-width:760px) {
 
     nav ul {
@@ -207,6 +200,13 @@ img {
         grid-gap: 3rem;
     }
 }
+
+footer {
+    background-color: #c75911;
+    padding: 20px;
+    text-align: center;
+}
+
 
 .fa {
     padding: 20px;

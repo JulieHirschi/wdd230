@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles.css">
+    <!--<link rel="stylesheet" href="styles/larger.css">-->
     <title>Scoots Site</title>
 </head>
 
@@ -54,13 +55,37 @@
                 <picture>
                     <source media="(max-width: 500px)" srcset="images/-sm.webp">
                     <source media="(max-width: 501px)" srcset="images/lg.webp">
+                    <img src="images/cozumelinfo.webp" alt="Cozumel Island with featured information" width="700"
+                        height="500">
+                </picture>
+            </div>
+            <div class="card">
+                <h2>Historic Ruins</h2>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/-sm.webp">
+                    <source media="(max-width: 501px)" srcset="images/lg.webp">
                     <img src="images/zona-arquologica-san-gervasio.webp"
                         alt="historic ruin at zona-arquologica-san-gervasio-cozumel-mexico" width="700" height="500">
                 </picture>
-                <p>This is one of the historic ruins located at the Sona Arquologica in San Gervasin. You can find this
-                    and many
-                    other sites as you travel around Cozumel. Renting from Scoots helps you take control of your travel
-                    and not need to rely on Ubers or other travel accomodations. </p>
+                <p>This is one of the historic ruins located at the Sona Arquologica <br> in San Gervasin. You can find
+                    this and many other sites as you travel around Cozumel.</p>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/-sm.webp">
+                    <source media="(max-width: 501px)" srcset="images/lg.webp">
+                    <img src="images/rock.webp" alt="historic ruin at zona-arquologica-san-gervasio-cozumel-mexico"
+                        width="700" height="500">
+                </picture>
+                <p>Take a journey back in time. See the amazing culture first hand.</p>
+            </div>
+            <div class="card">
+                <h2>Swim with the locals</h2>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/-sm.webp">
+                    <source media="(max-width: 501px)" srcset="images/lg.webp">
+                    <img src="images/snorkeling.webp" alt="Cozumel Island with featured information" width="700"
+                        height="500">
+                </picture>
+                <p>Take a break as you quietly explore underwater habitates.</p>
             </div>
             <div class="card">
                 <h2>Make your own path...</h2>
@@ -69,7 +94,9 @@
                     <source media="(max-width: 501px)" srcset="images/lg.webp">
                     <img src="images/sunset.webp" alt="Jeep driving next to beach" width="700" height="500">
                 </picture>
-                <p>Paragraph</p>
+                <p>Escape from the hustle and bustle of the average tourist. Get ahead of the<br>
+                    busy crowds by choosing to rent from Scoots Rental while<br>
+                    visiting the beautiful island of Cozumel. Take control of your travel.</p>
             </div>
         </div>
         <div class="leftcolumn">
@@ -94,24 +121,25 @@
                     <img src="images/atv.webp" alt="Red Honda ATV 4 passenger" width="460" height="345"><br>
                     <h3>Jeep</h3>
                     <img src="images/tours.webp" alt="Dark Gray Jeep Wrangler 5 passenger" width="460" height="345"><br>
-                    <select id="rentals" onchange="change_rentals(this.value)">
-                        <option value="none">Rent Now</option>
-                        <option value="scooter">Scooter</option>
-                        <option value="motorcycle">ATV</option>
-                        <option value="car">Jeep</option>
-                        <!-- <a href="rentals.html">Rentals</a> -->
-                    </select>
+                    <a href="reservations.html"><button>Reserve Now</button></a>
                 </div>
                 <!-- <aside contenteditable>Right Sidebar</aside> -->
 
     </main>
     <footer>
-        <div class="footer-container"></div>
-        <div id="locLeft" class="location">
-            <h2>Location 1</h2>
-            <p>1234 Main Street</p>
-            <p>Cozumel, Mexico</p>
-            <p>Phone: 123-456-7890</p>
+        <div class="footer-container">
+            <div id="locLeft" class="location">
+                <h2>Location 1</h2>
+                <p>1234 Main Street</p>
+                <p>Cozumel, Mexico</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div id="locRight" class="location">
+                <h2>Location 2</h2>
+                <p>1234 Seaport Ave</p>
+                <p>Cozumel, Mexico</p>
+                <p>Phone: 123-456-7891</p>
+            </div>
         </div>
         <p>Follow us on social media</p>
 
@@ -121,6 +149,7 @@
     </footer>
     <script src="scripts/weather.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/now.js"></script>
 </body>
 
 </html>

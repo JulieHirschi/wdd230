@@ -29,17 +29,47 @@
     </header>
     <div id="formmessage"></div>
     <h1>Scoots Rental Reservations</h1>
-    <h2>Please fill out this form to reserve your Scoots Rental Scooter, ATV, or Jeep today!</h2>
     <picture>
-        <source media="(min-width: 650px)" srcset="images/scooter.webp">
-        <source media="(min-width: 465px)" srcset="images/scooter.webp">
-        <img src="images/scooter.webp" alt="Scooter" style="width:auto;">
+        <source media="(min-width: 650px)" srcset="images/tours.webp">
+        <source media="(min-width: 465px)" srcset="images/tours.webp">
+        <img src="images/tours.webp" alt="Scooter" style="width:auto;">
     </picture>
+    <h2>Please fill out this form to reserve your Scoots Rental Scooter, ATV, or Jeep today!</h2>
+
     <div class="container">
+        <div>
+            <h2>Rental Services and Agreements</h2>
+            <li>A $50 security deposit is required to confirm resservations.</li>
+            <li>A valid drivers license is required in hand at the time of rental.</li>
+            <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+            <li>Fuel charge is not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is included.</li>
+            <li>Damage insurance is available for purchase.</li>
+            <li>Free delivery to Cazumel hotels ar Airbnbs for 2+ day rentals.</li>
+            <li>Payment via Google Pay, Apple Pay, Cash, Credit Card, Debit Card, or Venmo.</li>
+            <li>Rentals may be returned to either physical location.</li>
+        </div>
         <form method="get">
+
+            <h2> Please select what you would like to rent: </h2>
             <p class="smaller">*️⃣ Indicates a required field</p>
+            <div class="form-check">
+                <input type="checkbox" id="scooter" name="scooter" value="scooter">
+                <label for="scooter">Basic Scooter</label>
+                <input type="checkbox" id="scooter" name="scooter" value="scooter">
+                <label for="scooter">Dio Scooter</label>
+                <input type="checkbox" id="scooter" name="scooter" value="scooter">
+                <label for="scooter">PCX Scooter</label>
+                <input type="checkbox" id="atv" name="atv" value="atv">
+                <label for="atv">ATV</label>
+                <input type="checkbox" id="jeep" name="jeep" value="jeep">
+                <label for="jeep">Hardtop a/c Jeep</label>
+                <input type="checkbox" id="jeep" name="jeep" value="jeep">
+                <label for="jeep">Open Jeep</label>
+            </div>
             <label for="name" class="req">* Full Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Full Name"><br>
+            <input type="name" id="name" name="name" required placeholder="Full Name"><br>
             <label for="email" class="req">* Email:</label>
             <input type="email" id="email" name="email" placeholder="customer@example.com" required><br>
 
@@ -47,7 +77,7 @@
             <input type="tel" id="phone" name="phone" placeholder="1235551234" required><br>
 
             <label for="crzline">Cruise Line:</label>
-            <input type="crzline" id="crzline" name="crzline" placeholder="if applicable"><br>
+            <input type="crzline" id="crzline" name="crzline" placeholder="If Applicable"><br>
 
             <label for="date">* Date of Arrival:</label>
             <input type="date" id="date" name="date" required>
@@ -59,54 +89,37 @@
                 <label for="canada">Canada</label>
                 <input type="radio" id="other" name="other" value="other">
                 <label for="other">Other</label><br>
+            </form>
+            <div class="comment">
+                <label for="comments">Special Accomodations/comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50" s
+                    placeholder="Please enter your comments"></textarea>
+            </div>
+            <a href="congradulations.html"><button>Reserve Now</button></a>
+        </form>
+        <footer>
+            <div class="footer-container">
+                <div id="locLeft" class="location">
+                    <h2>Location 1</h2>
+                    <p>1234 Main Street</p>
+                    <p>Cozumel, Mexico</p>
+                    <p>Phone: 123-456-7890</p>
+                </div>
+                <div id="locRight" class="location">
+                    <h2>Location 2</h2>
+                    <p>1234 Seaport Ave</p>
+                    <p>Cozumel, Mexico</p>
+                    <p>Phone: 123-456-7891</p>
+                </div>
+            </div>
+            <p>Follow us on social media</p>
 
-
-                <label; fpr="country">Country:</label>
-                    <select id="country" name="country">
-                        <option value disabled selected>Select Country</option>
-                        <option value="usa">USA</option>
-                        <option value="canada">Canada</option>
-                        <option value="mexico">Mexico</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <div class="form-check">
-                        <input type="checkbox" id="scooter" name="scooter" value="scooter">
-                        <label for="scooter">Basic Scooter</label>
-                        <input type="checkbox" id="scooter" name="scooter" value="scooter">
-                        <label for="scooter">Dio Scooter</label>
-                        <input type="checkbox" id="scooter" name="scooter" value="scooter">
-                        <label for="scooter">PCX Scooter</label>
-                        <input type="checkbox" id="atv" name="atv" value="atv">
-                        <label for="atv">ATV</label>
-                        <input type="checkbox" id="jeep" name="jeep" value="jeep">
-                        <label for="jeep">Hardtop a/c Jeep</label>
-                        <input type="checkbox" id="jeep" name="jeep" value="jeep">
-                        <label for="jeep">Open Jeep</label>
-                    </div>
-
-                    <div class="comment">
-                        <label for="comments">Special Accomodations/comments:</label>
-                        <textarea id="comments" name="comments" rows="4" cols="50" s
-                            placeholder="Please enter your comments"></textarea>
-                    </div>
-                    <button id="btnSubmit" type="submit">Reserve Now</button>
-
-
-
-                    <footer>
-                        <div id="locLeft" class="location">
-                            <h2>Location 1</h2>
-                            <p>1234 Main Street</p>
-                            <p>Cozumel, Mexico</p>
-                            <p>Phone: 123-456-7890</p>
-                        </div>
-                        <p>Follow us on social media</p>
-
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <p>&copy; 2024 Julie Hirschi</p>
-                    </footer>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <p>&copy; 2024 Julie Hirschi</p>
+        </footer>
+        <script src="scripts/reservations.js"></script>
 </body>
 
 </html>

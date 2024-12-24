@@ -1,0 +1,26 @@
+.footer-container {
+    background: #b1f198;
+    color: #022f40;
+    padding: 2rem;
+    text-align: center;
+}
+
+.locLeft {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.locRight {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+
+}

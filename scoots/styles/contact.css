@@ -19,7 +19,7 @@ body {
 
 /* mobile **************************/
 header {
-    background-color: #e0b499;
+    background-color: #b1f198;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,13 @@ main {
 }
 
 h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+h2 {
     font-size: 2rem;
+    padding-top: 2rem;
 }
 
 nav {
@@ -80,8 +86,26 @@ nav a:hover {
     align-items: center;
 }
 
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 footer {
-    background-color: #e0b499;
+    background-color: #b1f198;
     padding: 20px;
     text-align: center;
+}
+
+.picture {
+    line-height: 0;
 }

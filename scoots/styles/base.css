@@ -3,7 +3,7 @@ body {
     /*#ff7b00*/
     color: #0b4360;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: "Sansita", sans-serif;
     line-height: 1.7;
     min-block-size: 100vh;
@@ -136,13 +136,13 @@ nav a:hover {
     color: #a52a2a;
 }
 
-
-
 footer {
     background-color: #b1f198;
     padding: 20px;
     text-align: center;
 }
+
+
 
 .fa {
     padding: 20px;
@@ -171,6 +171,8 @@ footer {
     background: #125688;
     color: #ffffff;
 }
+
+
 
 .ul {
     list-style-type: none;

@@ -12,6 +12,7 @@
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Contact</title>
 </head>
 
@@ -28,18 +29,30 @@
     </header>
     <h1>2 Locations to serve you.</h1>
     <h2>Near the Ferry Dock, in El Centro de Cozumel</h2>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2394.6514287195378!2d-86.95167436483902!3d20.511098469113065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock%2C%20El%20Centro%20de%20Cozumel!5e1!3m2!1sen!2sus!4v1734236704418!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
-    <h2>Near the Cruise Line Ports, Terminal Puerta Maya</h2>>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5696.701760950286!2d-86.97719406290604!3d20.478031887609063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya%2C%20Cozumel!5e1!3m2!1sen!2sus!4v1734237032584!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <div id="formmessage"></div>
+    <div class="Top">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2394.6514287195378!2d-86.95167436483902!3d20.511098469113065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock%2C%20El%20Centro%20de%20Cozumel!5e1!3m2!1sen!2sus!4v1734236704418!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/puertamayashop.webp">
+            <source media="(max-width: 501px)" srcset="images/puertamayashop.webp">
+            <img src="images/puertamayashop.webp" alt="Cozumel Island with featured information" width="600"
+                height="450">
+    </div>
+    <div class="Bottom">
+        <h2>Near the Cruise Line Ports, Terminal Puerta Maya</h2>>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5696.701760950286!2d-86.97719406290604!3d20.478031887609063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya%2C%20Cozumel!5e1!3m2!1sen!2sus!4v1734237032584!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/shops.webp">
+            <source media="(max-width: 501px)" srcset="images/shops.webp">
+            <img src="images/shops.webp" alt="Cozumel Island with featured information" width="600" height="450">
+            <div id="formmessage"></div>
+    </div>
     <h1>Contact Us</h1>
     <form method="get">
         <p class="smaller">*️⃣ Indicates a required field</p>
@@ -60,17 +73,27 @@
 
 
 
-        <button id="btnSubmit" type="submit">Submit Form</button>
-        <input type="hidden" value="43aster">
+        <button id="btnSubmit" class="grey" type="submit">Submit Form</button>
+        <!--<input type="hidden" value="43aster">-->
+        <a href="thanks.html"><button>Submit Form</button></a>
+
     </form>
 
 
     <footer>
-        <div id="locLeft" class="location">
-            <h2>Location 1</h2>
-            <p>1234 Main Street</p>
-            <p>Cozumel, Mexico</p>
-            <p>Phone: 123-456-7890</p>
+        <div class="footer-container">
+            <div id="locLeft" class="location">
+                <h2>Location 1</h2>
+                <p>1234 Main Street</p>
+                <p>Cozumel, Mexico</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div id="locRight" class="location">
+                <h2>Location 2</h2>
+                <p>1234 Seaport Ave</p>
+                <p>Cozumel, Mexico</p>
+                <p>Phone: 123-456-7891</p>
+            </div>
         </div>
         <p>Follow us on social media</p>
 

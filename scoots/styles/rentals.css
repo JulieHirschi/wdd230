@@ -1,15 +1,16 @@
 .column {
     float: left;
-    width: 33.33%;
-    padding: 50px;
+    margin-left: 50px;
+    width: 25%;
+    padding: 45px;
     text-align: center;
-    font-size: 25px;
+    font-size: 44px;
     cursor: pointer;
     color: white
 }
 
 .containerTab {
-    padding: 20px;
+    padding: 50px;
     color: white;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .row b1 {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -36,4 +37,20 @@
 
 .overlay {
     font-size: 44px;
+}
+
+.li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.table-container {
+    padding-left: 450px;
+    display: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+
 }
